@@ -1,5 +1,5 @@
 /* jshint node: true */
-
+var firebaseKey = require('./../.env').firebaseKey;
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'question-and-answer',
@@ -18,7 +18,7 @@ module.exports = function(environment) {
     },
 
     firebase: {
-      apiKey: 'AIzaSyCEhQo6Q-QhyGB0twm-Z8CuObCKuuTWQ9U',
+      apiKey: firebaseKey,
       authDomain: 'question-and-answer-a4153.firebaseapp.com',
       databaseURL: 'https://question-and-answer-a4153.firebaseio.com',
       storageBucket: 'question-and-answer-a4153.appspot.com'
