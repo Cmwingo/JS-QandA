@@ -1,0 +1,20 @@
+header h1 {
+  text-align: left;
+  width: 20%;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.jumbotron {
+  background-image: url('../img/header_background.jpg');
+  background-size: cover;
+  color: lightgray;
+}
+
+body li {
+  font-size: 14pt;
+}
+
+body p {
+  font-size: 12pt;
+  font-style: italic;
+}
