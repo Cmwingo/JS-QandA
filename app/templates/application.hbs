@@ -6,7 +6,7 @@
         <a class="navbar-brand" href="/">Seek Answers</a>
       </div>
       <ul class="nav navbar-nav">
-        <li class="active"><a href="/">Home</a></li>
+        <li>{{#link-to 'index'}}Home{{/link-to}}</li>
         <li>{{#link-to 'contact'}}Contact Us{{/link-to}}</li>
       </ul>
     </div>
@@ -17,6 +17,8 @@
   {{outlet}}
   <hr>
   <footer>
-    <!-- {{#link-to 'contact'}}Our representatives would love to help!{{/link-to}} -->
+    <blockquote>
+      <p>--Knowledge is power</p>
+    </blockquote>
   </footer>
 </div>
