@@ -1,0 +1,21 @@
+<div class= "container">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/">Seek Answers</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="/">Home</a></li>
+        <li>{{#link-to 'contact'}}Contact Us{{/link-to}}</li>
+      </ul>
+    </div>
+  </nav>
+  <header class= "jumbotron">
+    <h1>Seek Answers</h1>
+  </header>
+  {{outlet}}
+  <hr>
+  <footer>
+    <!-- {{#link-to 'contact'}}Our representatives would love to help!{{/link-to}} -->
+  </footer>
+</div>
