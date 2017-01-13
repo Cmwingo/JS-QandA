@@ -1,0 +1,14 @@
+{ "rentals": [{
+    "author": "Veruca Salt",
+    "content": "Why am I so annoying?",
+    "notes": "She really is."
+  }, {
+    "author": "Mike Teavee",
+    "content": "Why is the sky blue?",
+    "notes": "A philosopher, no doubt."
+  }, {
+    "author": "Violet Beauregarde",
+    "content": "Why am I turning purple",
+    "notes": "Rembember to ask Mr. Wonka about this"
+  }]
+}
